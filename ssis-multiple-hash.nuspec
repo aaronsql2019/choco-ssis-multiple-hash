@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>ssis-multiple-hash</id>
+    <title>ssis-multiple-hash (Install)</title>
+    <version>1.6.6.4</version>
+    <authors>Keith Martin</authors>
+    <owners>jayotterbein</owners>
+    <description>SSIS Multiple Hash makes it possible to generate many Hash values from each input row. Hash's supported include MD5 and SHA1.</description>
+    <projectUrl>https://ssismhash.codeplex.com/</projectUrl>
+    <tags>ssis-multiple-hash ssis sql</tags>
+    <licenseUrl>https://ssismhash.codeplex.com/license</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <releaseNotes>This is the SQL 2016 RTM release.
+It includes Visual Studio 2015 detection and installation.
+
+It has no code changes from previous 1.6 releases, just adding SQL 2016 and Visual Studio 2015 support.
+
+Full support for project SQL Server version targeting changes (between SQL 2012, SQL 2014 and SQL 2016) is included.
+
+Please download the x64 of x32 file based on the bitness of your SQL Server installation.</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
